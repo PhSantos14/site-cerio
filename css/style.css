@@ -1,0 +1,544 @@
+body {
+    margin: 0;
+    font-family: Poppins;
+    font-weight: 550;
+    background: linear-gradient(to bottom, #10251d, #245A43);
+}
+
+.navbar {
+    background-color: #10251d;
+    padding: 15px 0;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 10px 30px 30px rgba(0, 0, 0, 0.432);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 22px;
+}
+
+.navbar-brand strong {
+    color: #00ff6a;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #18c05e;
+}
+
+.imgCerio {
+    border-radius: 20px;
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+}
+
+.sobre-cerio {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 70px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.texto-cerio {
+    max-width: 550px;
+}
+
+.texto-cerio h1 {
+    background-color: white;
+    color: #10251d;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    margin: 0 0 25px 0;
+}
+
+.texto-cerio p {
+    color: #10251d;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.navegacao {
+    width: 90%;
+    height: 200px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background: linear-gradient(to top, #10251d, #245A43);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.elemento-cerio {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 5px solid #18c05e;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+}
+
+.elemento-cerio span {
+    display: block;
+    text-align: left;
+    color: #10251d;
+    font-size: 18px;
+}
+
+.elemento-cerio strong {
+    display: block;
+    color: #10251d;
+    font-size: 65px;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.elemento-cerio p {
+    color: #10251d;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.area-caracteristicas {
+    background-color: rgb(241, 241, 241);
+    padding: 80px 0;
+    border-radius: 20px;
+}
+
+.box-caracteristicas {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    background-color: rgb(29, 116, 72);
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0);
+}
+
+.box-caracteristicas h2 {
+    text-align: center;
+    color: #022212;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-decoration: solid;
+}
+
+.info-cerio {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.info-cerio p {
+    background-color: #48b46c;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 0 5px 20px rgba(0, 0, 0);
+}
+
+.aplicacoes {
+    background-color: #10251d;
+    padding: 80px 8%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.aplicacoes h2 {
+    color: #127041;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.cards-aplicacoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-aplicacao {
+    background-color: white;
+    width: 250px;
+    min-height: 220px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.card-aplicacao h3 {
+    color: #10251d;
+    margin-bottom: 20px;
+}
+
+.card-aplicacao p {
+    color: #022b14;
+    line-height: 1.6;
+}
+
+.card-aplicacao:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.curiosidades {
+    background-color: #10251d;
+    padding: 80px 8%;
+}
+
+.curiosidades h2 {
+    color: #127041;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.curiosidades-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.curiosidade {
+    background-color: white;
+    width: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.curiosidade span {
+    font-size: 45px;
+}
+
+.curiosidade h3 {
+    color: #10251d;
+    margin: 20px 0 15px;
+}
+
+.curiosidade p {
+    color: #444;
+    line-height: 1.6;
+}
+
+.curiosidade:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.sobre-mim {
+    background-color: #f2f5f3;
+    padding: 80px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 20px 20px;
+}
+
+.foto-autor {
+    width: 300px;
+}
+
+.foto-autor img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.foto-autor img:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.texto-autor {
+    max-width: 600px;
+}
+
+.texto-autor span {
+    color: #18c05e;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.texto-autor h2 {
+    color: #10251d;
+    font-size: 40px;
+    margin: 15px 0 25px;
+}
+
+.texto-autor h2 strong {
+    color: #18c05e;
+}
+
+.texto-autor p {
+    color: #444;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.professores {
+    background-color: rgb(214, 236, 189);
+    padding: 80px 8%;
+    text-align: center;
+    border-radius: 20px 20px;
+}
+
+.professores h2 {
+    color: #10251d;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.professores-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.professor {
+    width: 280px;
+    padding: 30px;
+    background-color: #f2f5f3;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.professor:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.professor img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #18c05e;
+    margin-bottom: 20px;
+}
+
+.professor h3 {
+    color: #10251d;
+    margin-bottom: 8px;
+}
+
+.professor p {
+    color: #555;
+    margin: 0;
+}
+
+.rodape {
+    background-color: #0b1914;
+    color: white;
+    padding: 50px 8% 20px;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.rodape h3 {
+    font-size: 25px;
+}
+
+.rodape h3 strong {
+    color: #00ff6a;
+}
+
+.rodape h4 {
+    margin-bottom: 15px;
+}
+
+.rodape p {
+    color: #b8c4be;
+}
+
+.rodape a {
+    display: block;
+    color: #b8c4be;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.rodape a:hover {
+    color: #00ff6a;
+}
+
+.rodape-final {
+    border-top: 1px solid #294238;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.rodape-final p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        padding: 12px 20px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .sobre-cerio {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 20px;
+    }
+
+    .imgCerio {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .elemento-cerio {
+        width: 180px;
+        height: 180px;
+    }
+
+    .elemento-cerio strong {
+        font-size: 55px;
+    }
+
+    .texto-cerio {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .texto-cerio h1 {
+        padding: 25px;
+        font-size: 25px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .texto-cerio p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .area-caracteristicas {
+        padding: 50px 20px;
+    }
+
+    .box-caracteristicas {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .box-caracteristicas h2 {
+        font-size: 30px;
+    }
+
+    .info-cerio {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info-cerio p {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .aplicacoes {
+        padding: 50px 20px;
+    }
+
+    .aplicacoes h2 {
+        font-size: 30px;
+    }
+
+    .card-aplicacao {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .curiosidades {
+        padding: 50px 20px;
+    }
+
+    .curiosidades h2 {
+        font-size: 30px;
+    }
+
+    .curiosidade {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .sobre-mim {
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+
+    .foto-autor {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .texto-autor {
+        text-align: center;
+    }
+
+    .texto-autor h2 {
+        font-size: 30px;
+    }
+
+    .professores {
+        padding: 50px 20px;
+    }
+
+    .professores h2 {
+        font-size: 30px;
+    }
+
+    .professor {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .rodape {
+        padding: 40px 20px 20px;
+    }
+
+    .rodape-conteudo {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}

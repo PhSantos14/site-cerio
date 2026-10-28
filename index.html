@@ -1,15 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cério-Elemento Químico</title>
+
+    <title>Cério - Elemento Químico</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="icon" href="images/favicon.jpeg">
     <link rel="stylesheet" href="css/style.css">
@@ -26,12 +26,14 @@
 
             <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#menu">
+                    data-bs-target="#menu"
+                    aria-controls="menu"
+                    aria-expanded="false"
+                    aria-label="Abrir menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="menu">
-
                 <ul class="navbar-nav ms-auto">
 
                     <li class="nav-item">
@@ -40,6 +42,10 @@
 
                     <li class="nav-item">
                         <a class="nav-link" href="#sobre">O Cério</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">História</a>
                     </li>
 
                     <li class="nav-item">
@@ -54,8 +60,11 @@
                         <a class="nav-link" href="#curiosidades">Curiosidades</a>
                     </li>
 
-                </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fontes">Fontes</a>
+                    </li>
 
+                </ul>
             </div>
         </div>
     </nav>
@@ -71,15 +80,48 @@
         </div>
 
         <div class="texto-cerio">
-
-            <strong><h1>O que é o Cério?
+            <h1>O que é o Cério?</h1>
 
             <p>O cério é um elemento químico representado pelo símbolo Ce.</p>
 
             <p>Possui número atômico 58.</p>
 
             <p>Ele pertence ao grupo dos lantanídeos e possui diversas aplicações.</p>
-                </strong></h1>
+        </div>
+
+    </section>
+
+    <section id="historia" class="historia">
+
+        <div class="historia-conteudo">
+
+            <span class="historia-subtitulo">HISTÓRIA DA QUÍMICA</span>
+
+            <h2>O descobrimento do Cério</h2>
+
+            <p>
+                O cério foi descoberto em 1803, de forma independente,
+                pelos químicos Martin Heinrich Klaproth, na Alemanha,
+                e Jöns Jacob Berzelius e Wilhelm Hisinger, na Suécia.
+            </p>
+
+            <p>
+                Inicialmente, os pesquisadores identificaram uma nova
+                substância em um mineral que recebeu o nome de cerita.
+                Os estudos posteriores permitiram reconhecer o novo
+                elemento químico.
+            </p>
+
+            <p>
+                O nome cério foi inspirado em Ceres, um corpo celeste
+                descoberto em 1801, hoje classificado como planeta anão.
+            </p>
+
+            <div class="historia-data">
+                <strong>1803</strong>
+                <span>Ano do descobrimento</span>
+            </div>
+
         </div>
 
     </section>
@@ -91,13 +133,11 @@
             <h2>Características do Cério</h2>
 
             <div class="info-cerio">
-
                 <p><strong>Símbolo:</strong> Ce</p>
                 <p><strong>Número atômico:</strong> 58</p>
                 <p><strong>Grupo:</strong> Lantanídeos</p>
                 <p><strong>Estado físico:</strong> Sólido</p>
                 <p><strong>Aparência:</strong> Metal prateado</p>
-
             </div>
 
         </div>
@@ -106,52 +146,40 @@
 
     <section id="aplicacoes" class="aplicacoes">
 
-        <h2><strong>Aplicações do Cério</strong></h2>
+        <h2>Aplicações do Cério</h2>
 
         <div class="cards-aplicacoes">
 
             <div class="card-aplicacao">
-
-                <h3><strong>🚗 Catalisadores</strong></h3>
-
+                <h3>🚗 Catalisadores</h3>
                 <p>
                     O cério é utilizado em catalisadores,
                     especialmente em aplicações automotivas.
                 </p>
-
             </div>
 
             <div class="card-aplicacao">
-
-                <h3><strong>🔬 Polimento</strong></h3>
-
+                <h3>🔬 Polimento</h3>
                 <p>
                     Compostos de cério são usados no
                     polimento de vidros e superfícies.
                 </p>
-
             </div>
 
             <div class="card-aplicacao">
-
-                <h3><strong>🪟 Vidros</strong></h3>
-
+                <h3>🪟 Vidros</h3>
                 <p>
                     O cério pode ser utilizado na fabricação
-                    e tratamento de determinados vidros.
+                    e no tratamento de determinados vidros.
                 </p>
-
             </div>
 
             <div class="card-aplicacao">
-
-                <h3><strong>⚙️ Ligas metálicas</strong></h3>
-
+                <h3>⚙️ Ligas metálicas</h3>
                 <p>
                     Também pode fazer parte de algumas
                     ligas metálicas.
                 </p>
-
             </div>
 
         </div>
@@ -160,60 +188,44 @@
 
     <section id="curiosidades" class="curiosidades">
 
-        <h2><strong>Curiosidades sobre o Cério</strong></h2>
+        <h2>Curiosidades sobre o Cério</h2>
 
         <div class="curiosidades-container">
 
             <div class="curiosidade">
-
                 <span>🔥</span>
-
-                <h3><strong>Produz faíscas</strong></h3>
-
+                <h3>Produz faíscas</h3>
                 <p>
-                    O cério pode participar de ligas capazes de
-                    produzir faíscas quando são raspadas ou friccionadas.
+                    O cério participa de ligas capazes de produzir
+                    faíscas quando são raspadas ou friccionadas.
                 </p>
-
             </div>
 
             <div class="curiosidade">
-
                 <span>🔄</span>
-
-                <h3><strong>+3 e +4</strong></h3>
-
+                <h3>+3 e +4</h3>
                 <p>
                     O cério pode apresentar principalmente os
                     estados de oxidação +3 e +4.
                 </p>
-
             </div>
 
             <div class="curiosidade">
-
                 <span>🪨</span>
-
-                <h3><strong>Encontrado em minerais</strong></h3>
-
+                <h3>Encontrado em minerais</h3>
                 <p>
                     O cério é encontrado principalmente em minerais
                     como monazita e bastnasita.
                 </p>
-
             </div>
 
             <div class="curiosidade">
-
                 <span>🌙</span>
-
-                <h3><strong>Nome espacial</strong></h3>
-
+                <h3>Nome espacial</h3>
                 <p>
                     Seu nome foi inspirado em Ceres, um planeta anão
                     localizado no Sistema Solar.
                 </p>
-
             </div>
 
         </div>
@@ -228,7 +240,7 @@
 
         <div class="texto-autor">
 
-            <span><strong>SOBRE O AUTOR</strong></span>
+            <span>SOBRE O AUTOR</span>
 
             <h2>Olá, eu sou <strong>Pedro Henrique</strong></h2>
 
@@ -253,23 +265,57 @@
         <div class="professores-container">
 
             <div class="professor">
-
                 <img src="images/allan.jpeg" alt="Professor Allan Vidal">
-
                 <h3>Allan Vidal</h3>
-
                 <p>Professor / Administrador</p>
-
             </div>
 
             <div class="professor">
-
                 <img src="images/elaine.jpeg" alt="Professora Elaine Lima">
-
                 <h3>Elaine Lima</h3>
+                <p>Professora / Administradora</p>
+            </div>
 
-                <p>Professor / Administrador</p>
+        </div>
 
+    </section>
+
+    <section id="fontes" class="fontes">
+
+        <h2>Fontes utilizadas</h2>
+
+        <p class="descricao-fontes">
+            As fontes abaixo foram consultadas para obter informações
+            sobre o elemento químico Cério.
+        </p>
+
+        <div class="fontes-container">
+
+            <div class="fonte">
+                <h3>Royal Society of Chemistry</h3>
+                <p>Informações sobre propriedades e características do cério.</p>
+                <a href="https://www.rsc.org/periodic-table/element/58/cerium"
+                   target="_blank" rel="noopener noreferrer">
+                    Acessar fonte
+                </a>
+            </div>
+
+            <div class="fonte">
+                <h3>PubChem</h3>
+                <p>Dados químicos e propriedades do elemento.</p>
+                <a href="https://pubchem.ncbi.nlm.nih.gov/element/Cerium"
+                   target="_blank" rel="noopener noreferrer">
+                    Acessar fonte
+                </a>
+            </div>
+
+            <div class="fonte">
+                <h3>Encyclopaedia Britannica</h3>
+                <p>Informações sobre a história e as aplicações do cério.</p>
+                <a href="https://www.britannica.com/science/cerium"
+                   target="_blank" rel="noopener noreferrer">
+                    Acessar fonte
+                </a>
             </div>
 
         </div>
@@ -281,45 +327,38 @@
         <div class="rodape-conteudo">
 
             <div>
-
                 <h3><strong>Ce</strong> CÉRIO</h3>
-
                 <p>Um pouco mais sobre o elemento químico 58.</p>
-
             </div>
 
             <div>
-
                 <h4>Navegação</h4>
-
                 <a href="#topo">Início</a>
                 <a href="#sobre">O Cério</a>
+                <a href="#historia">História</a>
                 <a href="#caracteristicas">Características</a>
                 <a href="#aplicacoes">Aplicações</a>
                 <a href="#curiosidades">Curiosidades</a>
-
+                <a href="#fontes">Fontes</a>
             </div>
 
             <div>
-
                 <h4>Informações</h4>
-
                 <p>Símbolo: Ce</p>
                 <p>Número atômico: 58</p>
                 <p>Lantanídeo</p>
-
             </div>
 
         </div>
 
         <div class="rodape-final">
-
             <p>© 2026 — Trabalho escolar sobre o Cério</p>
             <p>Pedro Henrique Lima dos Santos</p>
-
         </div>
 
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
